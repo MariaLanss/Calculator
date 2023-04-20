@@ -14,7 +14,7 @@ public class CalculatorServiceImpl implements CalculatorService{
     }
 
     @Override
-    public String getCalculateSubtraction(int number1, int number2) {
+    public String  getCalculateSubtraction(int number1, int number2) {
         int value = number1 - number2;
         return number1 + " - " + number2 + " = " + value;
     }
