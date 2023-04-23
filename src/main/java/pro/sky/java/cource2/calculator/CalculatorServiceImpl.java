@@ -8,29 +8,22 @@ public class CalculatorServiceImpl implements CalculatorService{
     private int number2;
 
     @Override
-    public String getCalculateAddition(int number1, int number2) {
-        int value = number1 + number2;
-        return number1 + " + " + number2 + " = " + value;
+    public int getCalculateAddition(int number1, int number2) {
+        return number1 + number2;
     }
 
     @Override
-    public String getCalculateSubtraction(int number1, int number2) {
-        int value = number1 - number2;
-        return number1 + " - " + number2 + " = " + value;
+    public int getCalculateSubtraction(int number1, int number2) {
+        return number1 - number2;
     }
 
     @Override
-    public String getCalculateMultiplication(int number1, int number2) {
-        int value = number1 * number2;
-        return number1 + " * " + number2 + " = " + value;
+    public int getCalculateMultiplication(int number1, int number2) {
+        return number1 * number2;
     }
 
     @Override
-    public String getCalculateDivision(int number1, int number2) {
-        if (number2 == 0) {
-            throw new IllegalArgumentException("Деление на ноль недопустимо");
-        }
-        int value = number1 / number2;
-        return number1 + " / " + number2 + " = " + value;
+    public int getCalculateDivision(int number1, int number2) {
+        return number1 / number2;
     }
 }

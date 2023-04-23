@@ -1,6 +1,6 @@
 package pro.sky.java.cource2.calculator.constants;
 
-public class CalculatorServiceTestConstants {
+public class  CalculatorServiceTestConstants {
     //
     public static final int number1 = 20;
     public static final int number2 = 5;

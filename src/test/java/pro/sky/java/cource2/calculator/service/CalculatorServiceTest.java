@@ -8,7 +8,7 @@ import pro.sky.java.cource2.calculator.CalculatorServiceImpl;
 import static pro.sky.java.cource2.calculator.constants.CalculatorServiceTestConstants.*;
 import static pro.sky.java.cource2.calculator.constants.CalculatorServiceTestConstants.divisionServiceTestResult2;
 
-public class CalculatorServiceTest {
+public class  CalculatorServiceTest {
     private final CalculatorService mut = new CalculatorServiceImpl();
 
     @Test

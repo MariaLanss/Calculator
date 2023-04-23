@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 import static pro.sky.java.cource2.calculator.constants.CalculatorServiceTestConstants.*;
 import static pro.sky.java.cource2.calculator.constants.CalculatorServiceTestConstants.number1;
 
-public class CalculatorServiceParameterizedTest {
+public class  CalculatorServiceParameterizedTest {
     private final CalculatorService mut = new CalculatorServiceImpl();
 
     @ParameterizedTest
